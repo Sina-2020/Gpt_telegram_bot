@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 
 TELEGRAM_TOKEN = os.environ.get("7895931874:AAGByOnx2iouK7Vhn-cptNrmSB6HiPgTl88")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+OPENAI_API_KEY = os.environ.get("AIzaSyDADmt8Un-pCThlds4mHRDMueEqa-XTQ3M")
 
 openai.api_key = OPENAI_API_KEY
 
